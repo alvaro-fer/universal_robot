@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- ProBot Plugin for MoveIt! -->
+  <arg name="planning_plugin" value="probot_interface/ProbotPlanner" />
+
+</launch>

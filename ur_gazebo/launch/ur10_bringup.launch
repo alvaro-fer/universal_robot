@@ -50,7 +50,7 @@
   <arg name="paused" default="false" doc="Starts Gazebo in paused mode" />
   <arg name="gui" default="true" doc="Starts Gazebo gui" />
   <arg name="start_gazebo" default="true" doc="If true, Gazebo will be started. If false, Gazebo will be assumed to have been started elsewhere." />
-  <arg name="gazebo_world" doc="The '.world' file to load in Gazebo." />
+  <arg name="gazebo_world" default="worlds/empty.world" doc="The '.world' file to load in Gazebo." />
   <arg name="gazebo_model_name" default="robot" doc="The name of the robot model loaded into Gazebo." />
 
   <!-- Robot pose definition -->
